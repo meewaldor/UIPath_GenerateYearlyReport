@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome ACME System 1 - Work Items",
+  "Type": "Screen",
+  "Id": "hwZ0yQLp8UKmzbu2hV932A",
+  "Reference": "aB-WISQTTkaa7Uk9cCVlUA/hwZ0yQLp8UKmzbu2hV932A",
+  "ParentRef": "aB-WISQTTkaa7Uk9cCVlUA/LWl7V-5yBUqUsfTdD6NC9A",
+  "Created": "2024-09-19T07:58:33.9442496Z",
+  "Updated": "2024-09-19T07:58:33.9442496Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

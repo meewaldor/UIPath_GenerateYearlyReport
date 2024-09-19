@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tK7HzYQBFUyC0UEy2V2o3g" Reference="aB-WISQTTkaa7Uk9cCVlUA/g7tm9FMFiUm0pm5T09XOnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://acme-test.uipath.com/work-items?page=4" ContentHash="Q2h8yd3mVUeSTUVbgheh0A" DesignTimeRectangle="210, 251, 1498, 631" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="47d2441f-6f74-4e66-9e0a-b26e282c9e7e" Reference="aB-WISQTTkaa7Uk9cCVlUA/g7tm9FMFiUm0pm5T09XOnw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9b3c36e07b746b91da4ff62f79a87547.png" xmlns="">0VpfAmMxL1ESRHZsruRA0WA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Actions' ReferenceIdx='0' Name='Actions' IsDeleted='true'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Actions Url' ReferenceIdx='1' Name='Actions Url' IsDeleted='true'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='WIID' ReferenceIdx='2' Name='WIID'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Description' ReferenceIdx='3' Name='Description'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Type' ReferenceIdx='4' Name='Type'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Status' ReferenceIdx='5' Name='Status'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Date' ReferenceIdx='6' Name='Date'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="https://acme-test.uipath.com/work-items?page=4" CVScreenId="4e33abcc-cddb-4716-b777-0f4b473153e1" CvElementArea="1663, 902, 36, 37" CvType="ArrowButton" DesignTimeRectangle="1667, 904, 33, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-label='Next »' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Next »' tag='A' type='' class='page-numbers' aaname='&amp;gt;' check:innerText='&amp;gt;' /&gt;" Guid="77855596-c44e-49d2-a9b0-5a5597ec41a7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4e33abcc-cddb-4716-b777-0f4b473153e1" CvElementArea="961, 899, 43, 41" CvTextArea="976, 910, 10, 19" CvType="Icon" DesignTimeRectangle="967, 904, 33, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='1' class='page-numbers' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1' class='page-numbers' tag='A' type='' check:innerText='1' /&gt;" Guid="744285e6-a89b-4140-a15b-da6216e51c10" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHYSURBVFhH7Ze9asMwFIX7tB4yZungwfQVMoWOHTpk6AtkyNC1QweTrdDFFJsYQ0gIZMhtjoNUxb6Kfm4MHnrgEGzr50O6uld5oBHqH8pXUVDH45F2ux01TUObzYaqqqKyLNtfPOM9vqNdjIKg9vs91XXdAvga7dEvRF5Qh8OhXQFuUl+jP8bxkRNqu92yk8Qa47lkhTqdTm1scANLjXExvk1WqKGAlDG+TSzUvbfMZttW9qAQjNwAQ5kL/h6U9JSFGvN1dQWFfMJ19HNOiyyhZLZivt12N49dQYUmxj8X9PmaUZLEQWFeUxoKJYHr4PTPF70/P16AIqFgsyRpKNQqrvEtF+slzdNJCzN9ymgqgML8ShoqPC+dYyjF6kwoe/mg73xBqQDKzFsaKvzU5fQ2m9NyXVyehVDmKdRQ6voRbSEU5lfSUFzDIAuhYKVxr5Q4kw8RU+JbgRCKPX0xeerKQig2T0VndGUhFJvRofjad7YAylr7INEtQQB185YAiU9hoM1Tp9SDGuXNExrdHV1JnLccNvNSV1aoUf7vU7r3Vtq2zJQTCkIwSk8l+nNBzckLSgn5JDTBon03D7kUBKWEkoBahdjACqhrD37xjPf4bpaOEEVBDSuiX/fWPoSPQ+rxAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
